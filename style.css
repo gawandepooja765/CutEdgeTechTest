@@ -1,0 +1,279 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: #fff;
+    font-size:30px
+}
+.img-1213{
+    max-width: 345px;
+}
+.work{
+    color: #fff;
+    padding-right: 30px;
+    padding-top: 10px
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.hero-section{
+    background-color: #000;
+    position: relative;
+
+}
+.bg-img .shape-top{
+    position: absolute;
+    width: 600px;
+    top: 0;
+    right: 0;
+}
+.bg-img .shape-left{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.head-sec{
+    padding-top: 150px;
+}
+.hero-section h1{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.hero-section p{
+    color: #fff;
+    font-size: 18px;
+}
+.click-sec .click1{
+    font-size: 18px;
+    background: #fff;
+    padding: 5px 50px;
+    color: #000;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.click-sec .click2{
+    font-size: 18px;
+    background: #ffa400;
+    padding: 5px 40px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.img-sec img{
+    
+    position: relative;
+    z-index: 1;
+}
+.section-2 h2{
+    padding: 20px 100px;
+    font-size: 2.8rem;
+   
+}
+.section-2 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.num span{
+    background: #ffa400;
+    padding: 5px 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+.num p{
+    padding: 10px 50px;
+}
+.click3{
+    font-size: 18px;
+    background: #ffa400;
+    padding: 5px 40px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.categories .fit{
+    background: #fff;
+    padding: 25px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.categories .fit img{
+    width: 150px;
+}
+.categories .category .fit:hover{
+    background-color: #222;
+    color: #fff!important;
+}
+.categories .category .truck:hover path{
+    
+ 
+    fill: #fff;
+    
+} 
+
+.categories2 .fit2{
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 15px;
+    
+    
+}
+.categories2 .fit2 img{
+    width: 100px;
+    height: 100px;
+}
+.back-img{
+    background-image: url(assets/Mask\ Group\ 163.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.testi-para{
+    padding: 50px 55px;
+    text-align: center;
+    background: #ffa400;
+    color: #fff;
+}
+.question-ans p{
+    font-size: 18px;
+}
+.question-ans h4{
+    font-weight: normal;
+}
+.back-img2{
+    background-image: url(assets/woman-taking-e-learning-courses.png);
+    background-position: center;
+    background-size: cover;
+}
+.usp h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.usp p{
+    font-size: 25px;
+    color: #fff;
+}
+.click4{
+    font-size: 18px;
+    background: #ffa400;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.back-img3{
+    background-image: url(assets/Mask\ Group\ 155.png);
+    background-color: #000;
+}
+.pt-120{
+    padding-top: 120px;
+}
+.foot-li{
+    padding: 0;
+    list-style: none;
+}
+.pr-70{
+    padding-right: 70px;
+}
+.icon-clr{
+    padding-right: 10px;
+}
+
+.processes h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.processes p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.processes img{
+    max-width: 750px;
+}
+.counts1{
+    position: absolute;
+    bottom: 30%;
+    left: 28%;
+}
+
+.counts2{
+    position: absolute;
+    bottom: 30%;
+    left: 48%;
+}
+.counts3{
+    position: absolute;
+    bottom: 18%;
+    right: 28%;
+}
+.btn-app{
+    background: #fff;
+    margin-right: 10px
+}
+.btn-sign{
+    background: #ffa400;
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+    .section-2 h2{
+        padding: 0;
+        font-size: 1.8rem;
+       
+    }
+    .question-ans p {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+        
+    }
+    .counts1 {
+        position: absolute;
+        bottom: 30%;
+        left: 10%;
+    }
+    .counts2 {
+        position: absolute;
+        bottom: 30%;
+        left: 45%;
+    }
+    .counts3 {
+        position: absolute;
+        bottom: 25%;
+        right: 30px;
+    }
+    .processes h3 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .processes p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .click-sec .click1 {
+        font-size: 18px;
+        background: #fff;
+        padding: 5px 25px;
+    }
+    .click4 {
+        font-size: 18px;
+        background: #ffa400;
+        padding: 10px 40px;
+    }
+    
+}
